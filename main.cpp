@@ -20,7 +20,7 @@ void fillRandomly(CONT<T>& data, const int size, const T min, const T max)
 int main() {
     Heap<int> heap;
     std::vector<int> vec;//{1,2,3,4,5,6,7,8};
-    fillRandomly(vec, 1000000, 0, 200);
+    fillRandomly(vec, 1000'000, 0, 200);
 
 /*    for(auto it : vec)
         heap.insert(it);

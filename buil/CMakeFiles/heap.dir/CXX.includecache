@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/danyal/Heap/Heap.cpp
+Heap.h
+/home/danyal/Heap/Heap.h
+
+/home/danyal/Heap/Heap.h
+array
+-
+vector
+-
+
+/home/danyal/Heap/main.cpp
+iostream
+-
+Heap.h
+/home/danyal/Heap/Heap.h
+random
+-
+chrono
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/g++   -fopenmp    CMakeFiles/heap.dir/main.cpp.o CMakeFiles/heap.dir/Heap.cpp.o  -o heap 
