@@ -21,15 +21,15 @@ int main() {
     Heap<int> heap;
     std::vector<int> vec;//{1,2,3,4,5,6,7,8};
     fillRandomly(vec, 1000'000, 0, 200);
+    auto start = std::chrono::system_clock::now();
 
-/*    for(auto it : vec)
+    for(auto it : vec)
         heap.insert(it);
     for(int i =0; i < vec.size(); i++) {
         auto var = heap.remove();
-        std::cout<<var<<std::endl;
-    }*/
+      ///  std::cout<<var<<std::endl;
+    }
 
-    auto start = std::chrono::system_clock::now();
     for(auto it : vec)
         heap.onlyInsert(it);
     heap.heapify(0);
